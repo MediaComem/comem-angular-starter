@@ -1,27 +1,54 @@
-# ComemAngularStarter
+# COMEM+ Angular Starter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
+This project was generated with [Angular CLI][angular-cli] version 1.6.8.
 
-## Development server
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Development](#development)
+- [Scaffolding](#scaffolding)
+- [Linting](#linting)
+- [Production](#production)
+- [Help](#help)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Build
+## Requirements
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+* [Node.js][node] 8+
 
-## Running unit tests
+## Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm install` in the project's directory.
 
-## Running end-to-end tests
+## Development
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Run `npm start` for a dev server.
+Navigate to `http://localhost:4200/`.
+The app will automatically reload if you change any of the source files.
 
-## Further help
+## Scaffolding
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Run `npm run ng -- generate component COMPONENT-NAME` to generate a new component.
+You can also use `npm run ng -- generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Linting
+
+Run `npm run lint` to analyze your code with [Codelyzer][codelyzer].
+
+## Production
+
+Run `npm run build` to build the project.
+The build artifacts will be stored in the `dist/` directory.
+Use the `-prod` flag for a production build.
+
+## Help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README][angular-cli].
+
+[angular-cli]: https://github.com/angular/angular-cli#readme
+[codelyzer]: http://codelyzer.com
+[node]: https://nodejs.org/
