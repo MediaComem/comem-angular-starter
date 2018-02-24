@@ -22,7 +22,18 @@ This project was generated with [Angular CLI][angular-cli] version 1.6.8.
 
 ## Installation
 
-Run `npm install` in the project's directory.
+Clone the repository:
+
+```bash
+git clone https://github.com/MediaComem/comem-angular-starter.git
+```
+
+Install its dependencies:
+
+```bash
+cd comem-angular-starter
+npm install
+```
 
 ## Development
 
